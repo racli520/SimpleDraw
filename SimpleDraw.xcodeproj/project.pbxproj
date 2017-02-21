@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					CC62319E1E5ABE0500259B4B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QD97PU2UFV;
 						ProvisioningStyle = Automatic;
 					};
 					CC6231B21E5ABE0500259B4B = {
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QD97PU2UFV;
 				INFOPLIST_FILE = SimpleDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rachel.SimpleDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QD97PU2UFV;
 				INFOPLIST_FILE = SimpleDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rachel.SimpleDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +510,7 @@
 				CC6231C91E5ABE0500259B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC6231CA1E5ABE0500259B4B /* Build configuration list for PBXNativeTarget "SimpleDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				CC6231CC1E5ABE0500259B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC6231CD1E5ABE0500259B4B /* Build configuration list for PBXNativeTarget "SimpleDrawUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				CC6231CF1E5ABE0500259B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -67,6 +67,9 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func reset(_ sender: Any) {
+        self.imageView.image = nil
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
